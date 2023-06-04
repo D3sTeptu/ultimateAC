@@ -31,6 +31,6 @@ UltimateAC is a free-resource created for increasing FiveM Server Security. It i
 - Anti Freeze Bypass
 
 ## Support
-We're glad that you're interested to be protected by us! We consider that every new customer must be respected equaly and the support to be qualitative. So, for any questions, problems, suggestions or feedbacks please join the discord server below.
+We're glad that you're interested to be protected by us! We consider that every new customer must be respected equaly and the support to be qualitative. So, for any questions, problems, suggestions, claim customer role or feedbacks please join the discord server below.
 
 **Discord**: https://discord.gg/BH5Z9eJ3qX.
