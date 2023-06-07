@@ -210,15 +210,6 @@ ultimateAC = { -- Global Anti-Cheat Configuration
             detectionMode = 2 --> 0 = Warning ; 1 = Kick ; 2 = Ban
         },
 
-        antiPickups = { -- Detects if a player create a pickup weapon
-            active = true, -- Switch if you want [`true` or `false` ONLY!!]
-            allowedPickups = { -- [PICKUP_HASH] = true/false
-                [9012] = true,
-                [52226] = true
-            },
-            detectionMode = 1 --> 1 = Kick ; 2 = Ban | Warning doesn't exist to prevent infinite warns spam
-        },
-
         playerProtection = { -- Protect players from reciving malicious weapons from cheaters or taking their weapons from inventory/loadout
             antiGiveWeaponsToOtherPlayers = true, -- Detects if a player give weapon(s) to other players
             antiRemoveWeaponsFromOtherPlayers = true, -- Detects if a player remove weapon(s) from other players
