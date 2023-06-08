@@ -11,7 +11,7 @@ UltimateAC is a free-resource created for increasing FiveM Server Security. It i
 - Events Protection (`Blacklisted Events, Nuke Events, Money Events, Rate-Limit Events, Client-Side Events`)
 - Connection Protection (`Anti VPN, Anti Blacklisted Name, Force Alpha-Numeric, Force Identifiers`)
 - Effects Protection (`Block All, Block Mass, Block Blacklisted`)
-- Weapons Protection (`Anti Infinite Ammo, Anti No-Reload, Anti Explosive Ammo, Anti Damage Modifier, Anti Blacklisted Weapons, Anti Pickups, Anti Give/Remove From Players`)
+- Weapons Protection (`Anti Infinite Ammo, Anti No-Reload, Anti Explosive Ammo, Anti Damage Modifier, Anti Blacklisted Weapons, Anti Give/Remove From Players`)
 - Anti Menus (`EMD, OSMD`)
 - Anti Spectate
 - Anti NUI Dev Tools
