@@ -1,6 +1,6 @@
 # UltimateAC - Protection at a HIGH level
 
-UltimateAC is a free-resource created for increasing FiveM Server Security. It is constantly updated, and we are hard-working to keep away the cheaters and give you the best experience enjoying your server without interrouptions.
+UltimateAC is a free-resource created for increasing FiveM Server Security. It is constantly updated, and we are hard-working to keep away the cheaters and give you the best experience enjoying your server without interruptions.
 ## Features
 
 - Automatic updates
