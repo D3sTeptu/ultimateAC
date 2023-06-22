@@ -209,7 +209,7 @@ ultimateAC = { -- Global Anti-Cheat Configuration
             removeAllWeaponsAfterDetection = true, -- This feature will remove all his weapons from loadout
             detectionMode = 2 --> 0 = Warning ; 1 = Kick ; 2 = Ban
         },
-
+        
         playerProtection = { -- Protect players from reciving malicious weapons from cheaters or taking their weapons from inventory/loadout
             antiGiveWeaponsToOtherPlayers = true, -- Detects if a player give weapon(s) to other players
             antiRemoveWeaponsFromOtherPlayers = true, -- Detects if a player remove weapon(s) from other players
@@ -260,91 +260,9 @@ ultimateAC = { -- Global Anti-Cheat Configuration
         detectionMode = 2 --> 0 = Warning ; 1 = Kick ; 2 = Ban
     },
 
-    antiExplosions = { -- This will protect your server from nuke explodes
+    antiExplosions = { -- Detects if a player spawn an explosion without any reason
         active = true, -- Switch if you want [`true` or `false` ONLY!!] | MASTERSWITCH!
-        blacklistedExplosions = { -- Detects if a player spawn one of below explosions
-            active = true, -- Switch if you want [`true` or `false` ONLY!!]
-            list = { -- [EXPLOSION_ID] = true/false. Check out https://bit.ly/3PPAASZ for all explosions index. Be careful to add `,` after every element you add! The last element is not required to have `,`.
-                    [0] = true,
-                    [1] = true,
-                    [2] = true,
-                    [4] = true,
-                    [5] = true,
-                    [18] = true,
-                    [19] = true,
-                    [20] = true,
-                    [21] = true,
-                    [26] = true,
-                    [29] = true,
-                    [30] = true,
-                    [31] = true,
-                    [32] = true,
-                    [33] = true,
-                    [35] = true,
-                    [36] = true,
-                    [37] = true,
-                    [38] = true,
-                    [40] = true,
-                    [41] = true,
-                    [42] = true,
-                    [43] = true,
-                    [44] = true,
-                    [45] = true,
-                    [46] = true,
-                    [47] = true,
-                    [48] = true,
-                    [49] = true,
-                    [50] = true,
-                    [51] = true,
-                    [52] = true,
-                    [53] = true,
-                    [54] = true,
-                    [55] = true,
-                    [56] = true,
-                    [57] = true,
-                    [58] = true,
-                    [59] = true,
-                    [60] = true,
-                    [61] = true,
-                    [62] = true,
-                    [63] = true,
-                    [64] = true,
-                    [65] = true,
-                    [68] = true,
-                    [69] = true,
-                    [70] = true,
-                    [71] = true,
-                    [72] = true,
-                    [73] = true,
-                    [74] = true,
-                    [75] = true,
-                    [81] = true,
-                    [82] = true          
-            },
-            detectionMode = 2 --> 0 = Warning ; 1 = Kick ; 2 = Ban
-        },
-
-        detectLuaMenusExplosions = { -- IN BETA! This feature will detect 95% of explosions created by a menu | FORCE-DISABLED
-            active = false, -- Switch if you want [`true` or `false` ONLY!!]
-            detectionMode = 2 --> 0 = Warning ; 1 = Kick ; 2 = Ban
-        },
-        
-        massExplosions = { -- Detects if a player spawn to mass explosions. Check Quick Documentation for more information about `detectTime`
-            active = true, -- Switch if you want [`true` or `false` ONLY!!]
-            detectTime = 5, -- There you will need to set a value of time in seconds. Default: 5 seconds
-            maxExplosions = 5, -- Maximum explosions that can be created in `detectTime` you setted
-            detectionMode = 1 --> 0 = Warning ; 1 = Kick ; 2 = Ban
-        },
-
-        invisibleExplosions = { -- Detects if a player spawn an invisible explosion
-            active = true, -- Switch if you want [`true` or `false` ONLY!!]
-            detectionMode = 2 --> 0 = Warning ; 1 = Kick ; 2 = Ban
-        },
-
-        silentExplosions = { -- Detects if a player spawn a silent explosion
-            active = true, -- Switch if you want [`true` or `false` ONLY!!]
-            detectionMode = 2 --> 0 = Warning ; 1 = Kick ; 2 = Ban
-        },
+        detectionMode = 2 --> 0 = Warning ; 1 = Kick ; 2 = Ban
     },
 
     antiSuperJump = { -- Detects if a player use Super Jump
