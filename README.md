@@ -16,7 +16,7 @@ UltimateAC is a free-resource created for increasing FiveM Server Security. It i
 - Anti Spectate
 - Anti NUI Dev Tools
 - Advanced Detect Entities (`Objects, Vehicles, Peds`)
-- Anti Explosions (`Anti Blacklisted Explosions, Anti Mass Explosions, Anti Invisible Explosions, Anti Silent Explosions`)
+- Anti Explosions
 - Anti Super Jump
 - Anti Clear Ped Tasks
 - Anti Visions (`Thermal, Night`)
