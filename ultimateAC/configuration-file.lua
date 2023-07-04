@@ -26,8 +26,7 @@ ultimateAC = { -- Global Anti-Cheat Configuration
     hammerSystem = { -- There you will can configure ban message, kick message, reject people who are banned with a specific message, etc.
         kickMessage = "You have been kicked for doing something forbidden on this server!\n[⚠️] This is not a kick from an admin.", -- \n (new line)
         banMessage = "You have been banned for doing something forbidden on this server!\n[⚠️] This is not a ban from an admin.", -- \n (new line)
-        rejectConnectionForBannedPlayers = "\nWe found that you are trying to join the server while your account is BANNED.", -- \n (new line)
-        antiCheatStopped = "You have been kicked for stopping anti-cheat module.\n[⚠️] This is not a kick from an admin." -- \n (new line)
+        rejectConnectionForBannedPlayers = "\nWe found that you are trying to join the server while your account is BANNED." -- \n (new line)
     },
 
     eventsProtection = { -- This is a very good system made by us about protect your evens for being abused!
