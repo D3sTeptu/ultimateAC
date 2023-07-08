@@ -134,7 +134,8 @@ ultimateAC = { -- Global Anti-Cheat Configuration
             xbl = false,
             discord = false,
             live = false,
-            blockMessage = "It seems you don't have %s identifier linked to your FiveM account."
+            fivem = false,
+            blockMessage = "You're not able to connect since you don't have %s identifier linked to your FiveM account."
         }
     },
 
