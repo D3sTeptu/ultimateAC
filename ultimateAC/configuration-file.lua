@@ -9,7 +9,7 @@
 -- Thank you for understanding us!
 
 ultimateAC = { -- Global Anti-Cheat Configuration
-    updateHash = "206ab1cd695a479ea3d4c95fa93bb431f62040a915442e2b543bc19de3a041cc", -- Don't touch this!   
+    updateHash = "84cc2a00d165981a17e5a7842dff2f0142335587f7aaada8d30faed727b2c62c", -- Don't touch this!   
 
     webhooks = { -- Discord Webhooks for alerts, logs, etc.
         general = "", -- Start logs
