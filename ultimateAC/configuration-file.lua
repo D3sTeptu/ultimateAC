@@ -181,7 +181,7 @@ ultimateAC = { -- Global Anti-Cheat Configuration
             },
 
             explosiveAmmo = { -- Detects if a player use explosive ammo for current weapon
-                active = false, -- Switch if you want [`true` or `false` ONLY!!]
+                active = true, -- Switch if you want [`true` or `false` ONLY!!]
                 detectionMode = 2 --> 0 = Warning ; 1 = Kick ; 2 = Ban
             }
         },
