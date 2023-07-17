@@ -318,7 +318,7 @@ ultimateAC = { -- Global Anti-Cheat Configuration
         },
         
         blockDeleteMassVehicles = { -- Detects in many cases if he deletes all server vehicles. Be careful to add all players who have acces to your server command (cleanup vehicles) to prevent false bans!
-            active = true, -- Switch if you want [`true` or `false` ONLY!!]
+            active = false, -- Switch if you want [`true` or `false` ONLY!!]
             detectTime = 2, -- There you will need to set a value of time in seconds. Default: 2 seconds
             vehiclesLimit = 5, -- Max vehicles that can be deleted in `detectTime` you setted above
             detectionMode = 1 --> 0 = Warning ; 1 = Kick ; 2 = Ban
