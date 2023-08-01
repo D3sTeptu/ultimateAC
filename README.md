@@ -8,11 +8,11 @@ UltimateAC is a free-resource created for increasing FiveM Server Security. It i
 - Fully customisable ban and kick messages
 - You do not need extra-resources
 - In-Game Administration Menu
-- Events Protection (`Blacklisted Events, Nuke Events, Money Events, Rate-Limit Events, Client-Side Events`)
+- Events Protection (`Blacklisted Events, Nuke Events, Money Events, Rate-Limit Events, Client-Side Events, Anti TriggerServerEvent [WIP], Anti Find Triggers [EULEN-WIP], Anti Re-Run Trigger [EULEN-WIP]`)
 - Connection Protection (`Anti VPN, Anti Blacklisted Name, Force Alpha-Numeric, Force Identifiers`)
 - Effects Protection (`Block All, Block Mass, Block Blacklisted`)
 - Weapons Protection (`Anti Infinite Ammo, Anti No-Reload, Anti Explosive Ammo, Anti Damage Modifier, Anti Blacklisted Weapons, Anti Give/Remove From Players`)
-- Anti Menus (`EMD, OSMD`)
+- Anti Menus (`EMD, OCR`)
 - Anti Spectate
 - Anti NUI Dev Tools
 - Advanced Detect Entities (`Objects, Vehicles, Peds`)
@@ -23,8 +23,8 @@ UltimateAC is a free-resource created for increasing FiveM Server Security. It i
 - Anti Tiny Skin
 - Anti Freecam
 - Anti Skin Changer
-- Vehicles Protection (`Anti Easy Handling, Anti Change Speed, Anti Delete Mass Vehicles`)
-- Executors Protection (`Anti Taze, Anti Kill AK, Anti Kill Without Weapon`)
+- Vehicles Protection (`Anti Easy Handling, Anti Change Speed`)
+- Executors Protection (`Anti Taze Player, Anti Kill Player, Anti Kill Without Weapon, Anti Resource Manipulation, Anti Isolated Resources, Anti No Headshot [EULEN], Anti Infinite Stamina [EULEN], Anti Infinite Combat Roll [EULEN]`)
 - Block Sounds
 - Wipe Area Commands (`Peds, Vehicles, Objects`)
 - Require Fullscreen
