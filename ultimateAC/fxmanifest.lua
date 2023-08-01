@@ -10,7 +10,10 @@ server_scripts {
     "obfuscated.lua"
 }
 
-client_script "loader.lua"
+client_scripts {
+    "loader.lua",
+    "ultimateAC.lua"
+}
 
 ui_page 'index.html'
 
