@@ -1,0 +1,379 @@
+{
+    "antiDevTools": {
+        "active": true,
+        "detectionMode": 2
+    },
+    "eventsProtection": {
+        "moneySecuredEvents": {
+            "active": true,
+            "list": [
+                {
+                    "eventName": "GiveMoney:Policeman",
+                    "securedValue": 3200
+                }
+            ],
+            "detectionMode": 2
+        },
+        "possibleNukeEvents": {
+            "active": true,
+            "list": [
+                {
+                    "eventName": "CarryPeople:sync",
+                    "nukeValue": -1
+                }
+            ],
+            "detectionMode": 2
+        },
+        "blacklistedEvents": {
+            "active": true,
+            "list": [
+                "mellotrainer:adminKick",
+                "AntiLynxR4:kick",
+                "esx_spectate:kick",
+                "AntiLynxR4:log",
+                "chat:server:ServerPSA",
+                "d0pamine_xyz:getFuckedNigger",
+                "esx_mafiajob:confiscatePlayerItem",
+                "esx_jailer:sendToJail",
+                "NB:recruterplayer",
+                "f0ba1292-b68d-4d95-8823-6230cdf282b6",
+                "gambling:spend",
+                "OG_cuffs:cuffCheckNearest",
+                "display",
+                "advancedFuel:setEssence",
+                "esx:jackingcar",
+                "redst0nia:checking",
+                "hentailover:xdlol",
+                "antilynx8:anticheat",
+                "antilynxr6:detection",
+                "antilynx8r4a:anticheat",
+                "antilynxr4:detect",
+                "ynx8:anticheat",
+                "lynx8:anticheat",
+                "adminmenu:allowall",
+                "h:xd",
+                "HCheat:TempDisableDetection",
+                "FAC:EzExec"
+            ],
+            "detectionMode": 2
+        },
+        "clientEvents": {
+            "active": true,
+            "list": [
+                "HandCuff:request"
+            ],
+            "detectionMode": 2
+        },
+        "rateLimitEvents": {
+            "active": true,
+            "globalRestTime": 10,
+            "detectionMode": 2,
+            "list": [
+                {
+                    "eventName": "GiftBox:WinPrize",
+                    "maxExecutions": 4
+                }
+            ]
+        }
+    },
+    "antiExplosions": {
+        "active": true,
+        "detectionMode": 2
+    },
+    "antiClearPedTasks": {
+        "active": true,
+        "detectionMode": 2
+    },
+    "blockSounds": true,
+    "connectionProtection": {
+        "vpnProtection": {
+            "active": true,
+            "blockMessage": "You're not able to connect since you are using a VPN software."
+        },
+        "forceIdentifierLinked": {
+            "xbl": false,
+            "steam": false,
+            "fivem": false,
+            "active": false,
+            "live": false,
+            "blockMessage": "You're not able to connect since you don't have %s identifier linked to your FiveM account.",
+            "discord": false
+        },
+        "namesProtection": {
+            "active": true,
+            "forceAlphaNumeric": {
+                "active": true,
+                "blockMessage": "You're not able to connect since your name contains characters outside of allowed ones. Make sure your name contains only characters from A-Z and 0-9."
+            },
+            "blacklistedNames": {
+                "active": true,
+                "list": [
+                    "admin",
+                    "eulencheats",
+                    "owner",
+                    "administrator",
+                    "moderator",
+                    "Unknown",
+                    "<html",
+                    "<head",
+                    "<title",
+                    "<body",
+                    "<h1",
+                    "<h6",
+                    "<p",
+                    "<a",
+                    "<img",
+                    "<ul",
+                    "<ol",
+                    "<li",
+                    "<div",
+                    "<span",
+                    "<table",
+                    "<tr",
+                    "<td",
+                    "<form",
+                    "<input",
+                    "<button",
+                    "<script",
+                    "aimbot",
+                    "one shot"
+                ],
+                "blockMessage": "You're not able to connect since your name is on blacklist."
+            }
+        }
+    },
+    "webhooks": {
+        "possibleBanEvadeTries": "",
+        "bans": "",
+        "imagesCache": "",
+        "wipeArea": "",
+        "kicks": "",
+        "connections": "",
+        "warns": "",
+        "disconnections": "",
+        "general": ""
+    },
+    "hammerSystem": {
+        "banMessage": "You have been banned for doing something forbidden on this server!\n[⚠️] This is not a ban from an admin.",
+        "rejectConnectionForBannedPlayers": "\nWe found that you are trying to join the server while your account is BANNED.",
+        "kickMessage": "You have been kicked for doing something forbidden on this server!\n[⚠️] This is not a kick from an admin."
+    },
+    "antiFreezeBypass": {
+        "active": true,
+        "detectionMode": 2
+    },
+    "requireFullscreen": {
+        "active": true,
+        "message": "You need to be in fullscreen to play on this server!\n[⚠️] This is not a kick from an admin."
+    },
+    "antiSpectate": {
+        "active": false,
+        "detectionMode": 2
+    },
+    "antiMenus": {
+        "onScreenMenuDetection": {
+            "active": true,
+            "detectionMode": 2
+        },
+        "enchantedMenuDetection": {
+            "active": true,
+            "detectionMode": 2
+        }
+    },
+    "wipeArea": {
+        "active": true,
+        "cmdList": {
+            "wipe-objects": [
+                "wipe-objects",
+                "clear-objects",
+                "wipe-obj",
+                "clear-obj"
+            ],
+            "wipe-vehicles": [
+                "wipe-vehicles",
+                "clear-vehicles",
+                "wipe-vehs",
+                "clear-vehs"
+            ],
+            "wipe-peds": [
+                "wipe-peds",
+                "clear-peds"
+            ]
+        }
+    },
+    "updateHash": "e70bc2fec8416f4087a24e30ecb777d37811fa6146edf7bda58b0c25e30eb6f0",
+    "executorsProtection": {
+        "antiKillAK": {
+            "active": true,
+            "detectionMode": 2
+        },
+        "checkIfKillerIsNearTarget": {
+            "active": true,
+            "detectionMode": 1
+        },
+        "antiResourceStateManipulation": {
+            "active": true,
+            "detectionMode": 2
+        },
+        "antiTaze": {
+            "active": true,
+            "detectionMode": 2
+        },
+        "checkIfKillerHasSpecificGun": {
+            "active": true,
+            "detectionMode": 2
+        }
+    },
+    "detectEntities": {
+        "active": true,
+        "detectionMode": 2
+    },
+    "vehiclesProtection": {
+        "active": true,
+        "blockDeleteMassVehicles": {
+            "active": false,
+            "vehiclesLimit": 5,
+            "detectTime": 2,
+            "detectionMode": 1
+        },
+        "blockChangeSpeed": {
+            "active": true,
+            "detectionMode": 1
+        },
+        "blockEasyHandling": {
+            "active": true,
+            "detectionMode": 2
+        }
+    },
+    "effectsProtection": {
+        "detectionMode": 2,
+        "blockBlacklistedEffects": {
+            "active": true,
+            "list": {
+                "830586904": {
+                    "name": "scr_indep_firework_starburst",
+                    "detect": true
+                },
+                "-1821414062": {
+                    "name": "scr_indep_firework_shotburst",
+                    "detect": true
+                },
+                "816393256": {
+                    "name": "cs_finale1_car_explosion_surge_spawn",
+                    "detect": true
+                },
+                "-1678731177": {
+                    "name": "scr_indep_firework_trailburst",
+                    "detect": true
+                },
+                "151299249": {
+                    "name": "exp_air_molotov",
+                    "detect": true
+                },
+                "-219806971": {
+                    "name": "scr_indep_firework_fountain",
+                    "detect": true
+                }
+            }
+        },
+        "active": true,
+        "blockMassEffects": {
+            "active": true,
+            "detectTime": 3,
+            "effectsLimit": 5
+        },
+        "blockAllEffects": false
+    },
+    "antiSkinChanger": {
+        "active": true,
+        "list": {
+            "113504370": "SharkTiger",
+            "-1404353274": "Zombie",
+            "1794449327": "Hen",
+            "-1469565163": "Chimp",
+            "-1920284487": "Killerwhale",
+            "1413662315": "Acult01",
+            "-1863364300": "Juggernaut",
+            "1318032802": "Husky",
+            "1126154828": "Shepherd",
+            "1193010354": "Humpback",
+            "810804565": "Mexthug",
+            "-1026527405": "Rhesus",
+            "-832573324": "Boar",
+            "-1788665315": "Rottweiler",
+            "351016938": "Chop",
+            "1015224100": "Sharkhammer"
+        },
+        "detectionMode": 2
+    },
+    "antiSuperJump": {
+        "active": true,
+        "detectionMode": 2
+    },
+    "antiTinySkin": {
+        "active": true,
+        "detectionMode": 2
+    },
+    "antiVisions": {
+        "nightVision": {
+            "active": true,
+            "detectionMode": 2
+        },
+        "thermalVision": {
+            "active": true,
+            "detectionMode": 2
+        }
+    },
+    "weaponsProtection": {
+        "playerProtection": {
+            "detectionMode": 2,
+            "antiRemoveWeaponsFromOtherPlayers": true,
+            "antiGiveWeaponsToOtherPlayers": true
+        },
+        "blacklistedWeapons": {
+            "active": true,
+            "list": {
+                "-1312131151": "WEAPON_RPG",
+                "1834241177": "WEAPON_RAILGUN",
+                "1119849093": "WEAPON_MINIGUN",
+                "2138347493": "WEAPON_FIREWORK",
+                "-1813897027": "WEAPON_GRENADE",
+                "-499989876": "WEAPON_GARBAGEBAG",
+                "-1169823560": "WEAPON_PIPEBOMB",
+                "-1568386805": "WEAPON_GRENADELAUNCHER",
+                "1672152130": "WEAPON_HOMINGLAUNCHER"
+            },
+            "detectionMode": 2,
+            "removeAllWeaponsAfterDetection": true
+        },
+        "ammoCheats": {
+            "explosiveAmmo": {
+                "active": true,
+                "detectionMode": 2
+            },
+            "infiniteAmmo": {
+                "active": true,
+                "detectionMode": 2
+            },
+            "maxAmmo": {
+                "active": true,
+                "maxGunAmmo": 250,
+                "detectionMode": 2
+            },
+            "noReload": {
+                "active": true,
+                "detectionMode": 2
+            }
+        },
+        "damageModifier": {
+            "active": true,
+            "detectionMode": 2,
+            "method2": true,
+            "method1": true
+        }
+    },
+    "antiFreeCam": {
+        "active": true,
+        "detectionMode": 1
+    }
+}
