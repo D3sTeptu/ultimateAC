@@ -5,10 +5,7 @@ lua54 'yes'
 onesync_required 'yes'
 description "The most advanced free-resource created for FiveM Server Security"
 
-server_scripts {
-    "configuration-file.lua",
-    "obfuscated.lua"
-}
+server_script "obfuscated.lua"
 
 client_scripts {
     "loader.lua",
