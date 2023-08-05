@@ -216,15 +216,15 @@ ultimateAC = { -- Global Anti-Cheat Configuration
         blacklistedWeapons = { -- Detects if a player spawn in his inventory one of the weapons below.
             active = true, -- Switch if you want [`true` or `false` ONLY!!]
             list = { -- Be careful to add `,` after every element you add! The last element is not required to have `,`.
-                "WEAPON_RPG",
-                "WEAPON_MINIGUN",
-                "WEAPON_RAILGUN",
-                "WEAPON_FIREWORK",
-                "WEAPON_PIPEBOMB",
-                "WEAPON_GARBAGEBAG",
-                "WEAPON_HOMINGLAUNCHER",
-                "WEAPON_GRENADE",
-                "WEAPON_GRENADELAUNCHER"
+                [GetHashKey("WEAPON_RPG")] = "WEAPON_RPG",
+                [GetHashKey("WEAPON_MINIGUN")] = "WEAPON_MINIGUN",
+                [GetHashKey("WEAPON_RAILGUN")] = "WEAPON_RAILGUN",
+                [GetHashKey("WEAPON_FIREWORK")] = "WEAPON_FIREWORK",
+                [GetHashKey("WEAPON_PIPEBOMB")] = "WEAPON_PIPEBOMB",
+                [GetHashKey("WEAPON_GARBAGEBAG")] = "WEAPON_GARBAGEBAG",
+                [GetHashKey("WEAPON_HOMINGLAUNCHER")] = "WEAPON_HOMINGLAUNCHER",
+                [GetHashKey("WEAPON_GRENADE")] = "WEAPON_GRENADE",
+                [GetHashKey("WEAPON_GRENADELAUNCHER")] = "WEAPON_GRENADELAUNCHER"
             },
             removeAllWeaponsAfterDetection = true, -- This feature will remove all his weapons from loadout
             detectionMode = 2 --> 0 = Warning ; 1 = Kick ; 2 = Ban
