@@ -24,7 +24,7 @@ UltimateAC is a free-resource created for increasing FiveM Server Security. It i
 - Anti Freecam
 - Anti Skin Changer
 - Vehicles Protection (`Anti Easy Handling, Anti Change Speed`)
-- Executors Protection (`Anti Taze Player, Anti Kill Player, Anti Kill Without Weapon, Anti Resource Manipulation, Anti Isolated Resources, Anti No Headshot [EULEN], Anti Infinite Stamina [EULEN], Anti Infinite Combat Roll [EULEN]`)
+- Executors Protection (`Anti Eulen [WIP], Anti Taze Player, Anti Kill Player, Anti Kill Without Weapon, Anti Resource Manipulation, Anti Isolated Resources, Anti No Headshot [EULEN], Anti Infinite Stamina [EULEN], Anti Infinite Combat Roll [EULEN]`)
 - Block Sounds
 - Wipe Area Commands (`Peds, Vehicles, Objects`)
 - Require Fullscreen
