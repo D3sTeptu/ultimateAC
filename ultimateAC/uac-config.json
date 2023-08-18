@@ -203,25 +203,21 @@
     },
     "updateHash": "526e3ad131943fd35e464bc2ffc22030e7b94c1c6d6e5fd3e9fe9ace35a704c0",
     "executorsProtection": {
-        "antiKillAK": {
-            "active": true,
-            "detectionMode": 2
-        },
-        "checkIfKillerIsNearTarget": {
-            "active": true,
-            "detectionMode": 1
-        },
-        "antiResourceStateManipulation": {
-            "active": true,
-            "detectionMode": 2
-        },
-        "antiTaze": {
-            "active": true,
-            "detectionMode": 2
+        "antiInfiniteStamina": {
+            "detectionMode": 2,
+            "active": true
         },
         "checkIfKillerHasSpecificGun": {
-            "active": true,
-            "detectionMode": 2
+            "detectionMode": 2,
+            "active": true
+        },
+        "antiNoCriticals": {
+            "detectionMode": 2,
+            "active": true
+        },
+        "antiInfiniteCombatRoll": {
+            "detectionMode": 2,
+            "active": true
         }
     },
     "detectEntities": {
@@ -230,12 +226,6 @@
     },
     "vehiclesProtection": {
         "active": true,
-        "blockDeleteMassVehicles": {
-            "active": false,
-            "vehiclesLimit": 5,
-            "detectTime": 2,
-            "detectionMode": 1
-        },
         "blockChangeSpeed": {
             "active": true,
             "detectionMode": 1
@@ -346,23 +336,19 @@
             "detectionMode": 2,
             "removeAllWeaponsAfterDetection": true
         },
+        "detectCitizenModifications": {
+            "detectionMode": 2,
+            "active": true
+        },
         "ammoCheats": {
-            "explosiveAmmo": {
-                "active": true,
-                "detectionMode": 2
-            },
-            "infiniteAmmo": {
-                "active": true,
-                "detectionMode": 2
-            },
             "maxAmmo": {
-                "active": true,
+                "detectionMode": 2,
                 "maxGunAmmo": 250,
-                "detectionMode": 2
+                "active": true
             },
-            "noReload": {
-                "active": true,
-                "detectionMode": 2
+            "explosiveAmmo": {
+                "detectionMode": 2,
+                "active": false
             }
         },
         "damageModifier": {
