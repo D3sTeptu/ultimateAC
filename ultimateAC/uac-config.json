@@ -155,6 +155,7 @@
     },
     "hammerSystem": {
         "banMessage": "You have been banned for doing something forbidden on this server!\n[⚠️] This is not a ban from an admin.",
+        "spoofBanMessage": "\nWe found that you are trying to spoof your ORIGINAL ban.",
         "rejectConnectionForBannedPlayers": "\nWe found that you are trying to join the server while your account is BANNED.",
         "kickMessage": "You have been kicked for doing something forbidden on this server!\n[⚠️] This is not a kick from an admin."
     },
