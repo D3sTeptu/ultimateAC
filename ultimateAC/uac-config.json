@@ -202,7 +202,7 @@
             ]
         }
     },
-    "updateHash": "9102f03cbb6dd82667dfdc53496424bc5d31a758933568e8d3585da9aeb5d3db",
+    "updateHash": "b6ef3467912662718f45bccaa6d448888df7e5478b75ef5951f000139b8e81f6",
     "executorsProtection": {
         "antiInfiniteStamina": {
             "detectionMode": 2,
@@ -223,6 +223,8 @@
     },
     "detectEntities": {
         "active": true,
+        "bypassedResources": {
+        },
         "detectionMode": 2
     },
     "vehiclesProtection": {
