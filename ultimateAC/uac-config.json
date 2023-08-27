@@ -202,7 +202,7 @@
             ]
         }
     },
-    "updateHash": "b6ef3467912662718f45bccaa6d448888df7e5478b75ef5951f000139b8e81f6",
+    "updateHash": "dd24add03bdb7769c58a53f4f89942bdde88135616f698a733fd13c58b78909d",
     "executorsProtection": {
         "antiInfiniteStamina": {
             "detectionMode": 2,
