@@ -3,79 +3,6 @@
         "active": true,
         "detectionMode": 2
     },
-    "eventsProtection": {
-        "moneySecuredEvents": {
-            "active": true,
-            "list": [
-                {
-                    "eventName": "GiveMoney:Policeman",
-                    "securedValue": 3200
-                }
-            ],
-            "detectionMode": 2
-        },
-        "possibleNukeEvents": {
-            "active": true,
-            "list": [
-                {
-                    "eventName": "CarryPeople:sync",
-                    "nukeValue": -1
-                }
-            ],
-            "detectionMode": 2
-        },
-        "blacklistedEvents": {
-            "active": true,
-            "list": [
-                "mellotrainer:adminKick",
-                "AntiLynxR4:kick",
-                "esx_spectate:kick",
-                "AntiLynxR4:log",
-                "chat:server:ServerPSA",
-                "d0pamine_xyz:getFuckedNigger",
-                "esx_mafiajob:confiscatePlayerItem",
-                "esx_jailer:sendToJail",
-                "NB:recruterplayer",
-                "f0ba1292-b68d-4d95-8823-6230cdf282b6",
-                "gambling:spend",
-                "OG_cuffs:cuffCheckNearest",
-                "display",
-                "advancedFuel:setEssence",
-                "esx:jackingcar",
-                "redst0nia:checking",
-                "hentailover:xdlol",
-                "antilynx8:anticheat",
-                "antilynxr6:detection",
-                "antilynx8r4a:anticheat",
-                "antilynxr4:detect",
-                "ynx8:anticheat",
-                "lynx8:anticheat",
-                "adminmenu:allowall",
-                "h:xd",
-                "HCheat:TempDisableDetection",
-                "FAC:EzExec"
-            ],
-            "detectionMode": 2
-        },
-        "clientEvents": {
-            "active": true,
-            "list": [
-                "HandCuff:request"
-            ],
-            "detectionMode": 2
-        },
-        "rateLimitEvents": {
-            "active": true,
-            "globalRestTime": 10,
-            "detectionMode": 2,
-            "list": [
-                {
-                    "eventName": "GiftBox:WinPrize",
-                    "maxExecutions": 4
-                }
-            ]
-        }
-    },
     "antiExplosions": {
         "active": true,
         "detectionMode": 2
@@ -202,7 +129,7 @@
             ]
         }
     },
-    "updateHash": "a42ddf90c5e30b2633c60500296fe30a2589c240f3d58778a29d6de07ef9c758",
+    "updateHash": "0d6e0f88a34da8fe9611b61128c6c3d5e8a150776a495c69c5cc65ebfb0df2e5",
     "executorsProtection": {
         "antiInfiniteStamina": {
             "detectionMode": 2,
