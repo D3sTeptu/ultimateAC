@@ -143,6 +143,10 @@
             "detectionMode": 2,
             "active": true
         },
+        "preventSpoofedWeapons": {
+            "detectionMode": 2,
+            "active": true
+        },
         "antiInfiniteCombatRoll": {
             "detectionMode": 2,
             "active": true
